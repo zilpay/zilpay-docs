@@ -5,7 +5,7 @@ module.exports = {
   ],
   title: 'ZilPay',
   head: [
-    ['link',{rel:'icon',href:'/zilpay-docs/favicon.ico'}]
+    ['link',{rel:'icon',href:'https://zilpay.io/wp-content/uploads/2021/03/zilpay_logo_png-150x150.png'}]
   ],
   description: 'ZilPay Developer Documentation',
   themeConfig: {
