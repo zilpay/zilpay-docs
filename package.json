@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "name": "zilpay-docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:zilpay/zilpay-docs.git",
+  "author": "Rinat <lich666black@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
