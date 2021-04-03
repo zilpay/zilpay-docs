@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/',
+  base: '/docs/',
   dest: 'docs',
   plugins: [
   ],
