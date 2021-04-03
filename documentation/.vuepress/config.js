@@ -11,7 +11,7 @@ module.exports = {
   themeConfig: {
     lastUpdated: 'Last Updated',
     nav: [
-      { text: 'Home', link: '/' },
+      { text: 'Home', link: '/home' },
       { text: 'Getting Started', link: '/getting-started/' },
       { text: 'ZilPay', link: 'https://zilpay.io' },
       { text: 'GitHub', link: 'https://github.com/zilpay/zil-pay' }
