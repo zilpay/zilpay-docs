@@ -1,11 +1,11 @@
 module.exports = {
-  base: '/docs/',
+  base: '/zilpay-docs/',
   dest: 'docs',
   plugins: [
   ],
   title: 'ZilPay',
   head: [
-    ['link',{rel:'icon',href:'/favicon.ico'}]
+    ['link',{rel:'icon',href:'/zilpay-docs/favicon.ico'}]
   ],
   description: 'ZilPay Developer Documentation',
   themeConfig: {
