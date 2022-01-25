@@ -103,8 +103,11 @@ const verify = schnorr.verify(
 This method is required for the monitored user account, use the subscription only once and if you don't needed monitored account you  need unsubscribe.
 
 ```javascript
-const accountStreamChanged = window.zilPay.wallet.observableAccount();
-accountStreamChanged.subscribe(account => ...);
+const accountStreamChanged = window
+    .zilPay
+    .wallet
+    .observableAccount()
+    .subscribe(account => ...);
 // If you do not need to track, you need to cancel the unsubscribe.
 accountStreamChanged.unsubscribe();
 ```
@@ -114,8 +117,12 @@ accountStreamChanged.unsubscribe();
 This method is required for the monitored user account, use the subscription only once and if you don't needed monitored account you  need unsubscribe.
 
 ```javascript
-const networkStreamChanged = window.zilPay.wallet.observableNetwork();
-accountStream.subscribe(net => ...);
+const networkStreamChanged = window
+    .zilPay
+    .wallet
+    .observableNetwork()
+    .accountStream
+    .subscribe(net => ...);
 // If you do not need to track, you need to cancel the unsubscribe.
 accountStream.unsubscribe();
 ```
