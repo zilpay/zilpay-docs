@@ -137,7 +137,7 @@ const result = await blockchain.getCurrentDSEpoch();
 ```javascript
 const blockchain = window.zilPay.blockchain;
 const transactionID = '4ecbf705da6d9a57abf3c6c2cd901bf1493d1ef2cb3a6f46e74ad452880052da';
-const result = await blockchain.getContractAddressFromTransactionID(transactionID);
+const result = await blockchain.getCurrentMiniEpoch(transactionID);
 ```
 ```json
 {
