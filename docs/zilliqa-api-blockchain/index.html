@@ -8,7 +8,7 @@
     <link rel="icon" href="https://zilpay.io/wp-content/uploads/2021/03/zilpay_logo_png-150x150.png">
     <meta name="description" content="ZilPay Developer Documentation">
     
-    <link rel="preload" href="/zilpay-docs/assets/css/0.styles.ed90fe44.css" as="style"><link rel="preload" href="/zilpay-docs/assets/js/app.d22512ee.js" as="script"><link rel="preload" href="/zilpay-docs/assets/js/2.7bc8afac.js" as="script"><link rel="preload" href="/zilpay-docs/assets/js/13.fced94b0.js" as="script"><link rel="prefetch" href="/zilpay-docs/assets/js/10.fce8eb10.js"><link rel="prefetch" href="/zilpay-docs/assets/js/11.a7c8f7ea.js"><link rel="prefetch" href="/zilpay-docs/assets/js/12.d47a4576.js"><link rel="prefetch" href="/zilpay-docs/assets/js/14.af231f16.js"><link rel="prefetch" href="/zilpay-docs/assets/js/15.e5f95616.js"><link rel="prefetch" href="/zilpay-docs/assets/js/16.15a8c45f.js"><link rel="prefetch" href="/zilpay-docs/assets/js/17.f611e04e.js"><link rel="prefetch" href="/zilpay-docs/assets/js/3.ff26ccfb.js"><link rel="prefetch" href="/zilpay-docs/assets/js/4.e05c873c.js"><link rel="prefetch" href="/zilpay-docs/assets/js/5.33233bc0.js"><link rel="prefetch" href="/zilpay-docs/assets/js/6.498ab014.js"><link rel="prefetch" href="/zilpay-docs/assets/js/7.6aaf1abe.js"><link rel="prefetch" href="/zilpay-docs/assets/js/8.8de3cbfc.js"><link rel="prefetch" href="/zilpay-docs/assets/js/9.ebd19dc3.js">
+    <link rel="preload" href="/zilpay-docs/assets/css/0.styles.ed90fe44.css" as="style"><link rel="preload" href="/zilpay-docs/assets/js/app.9d2045d7.js" as="script"><link rel="preload" href="/zilpay-docs/assets/js/2.7bc8afac.js" as="script"><link rel="preload" href="/zilpay-docs/assets/js/13.00f48ea5.js" as="script"><link rel="prefetch" href="/zilpay-docs/assets/js/10.fce8eb10.js"><link rel="prefetch" href="/zilpay-docs/assets/js/11.a7c8f7ea.js"><link rel="prefetch" href="/zilpay-docs/assets/js/12.d47a4576.js"><link rel="prefetch" href="/zilpay-docs/assets/js/14.af231f16.js"><link rel="prefetch" href="/zilpay-docs/assets/js/15.e5f95616.js"><link rel="prefetch" href="/zilpay-docs/assets/js/16.15a8c45f.js"><link rel="prefetch" href="/zilpay-docs/assets/js/17.f611e04e.js"><link rel="prefetch" href="/zilpay-docs/assets/js/3.ff26ccfb.js"><link rel="prefetch" href="/zilpay-docs/assets/js/4.e05c873c.js"><link rel="prefetch" href="/zilpay-docs/assets/js/5.33233bc0.js"><link rel="prefetch" href="/zilpay-docs/assets/js/6.498ab014.js"><link rel="prefetch" href="/zilpay-docs/assets/js/7.6aaf1abe.js"><link rel="prefetch" href="/zilpay-docs/assets/js/8.8de3cbfc.js"><link rel="prefetch" href="/zilpay-docs/assets/js/9.ebd19dc3.js">
     <link rel="stylesheet" href="/zilpay-docs/assets/css/0.styles.ed90fe44.css">
   </head>
   <body>
@@ -123,7 +123,7 @@
 <span class="token punctuation">}</span>
 </code></pre></div><ul><li><code>getCurrentMiniEpoch(transactionId: string): Promise&lt;RPCResponse&gt;</code></li></ul> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">const</span> blockchain <span class="token operator">=</span> window<span class="token punctuation">.</span>zilPay<span class="token punctuation">.</span>blockchain<span class="token punctuation">;</span>
 <span class="token keyword">const</span> transactionID <span class="token operator">=</span> <span class="token string">'4ecbf705da6d9a57abf3c6c2cd901bf1493d1ef2cb3a6f46e74ad452880052da'</span><span class="token punctuation">;</span>
-<span class="token keyword">const</span> result <span class="token operator">=</span> <span class="token keyword">await</span> blockchain<span class="token punctuation">.</span><span class="token function">getContractAddressFromTransactionID</span><span class="token punctuation">(</span>transactionID<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> result <span class="token operator">=</span> <span class="token keyword">await</span> blockchain<span class="token punctuation">.</span><span class="token function">getCurrentMiniEpoch</span><span class="token punctuation">(</span>transactionID<span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre></div><div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span>
     <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
     <span class="token property">&quot;jsonrpc&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2.0&quot;</span><span class="token punctuation">,</span>
@@ -711,7 +711,7 @@
         <span class="token punctuation">}</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
-</code></pre></div></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">4/3/2021, 9:52:30 AM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+</code></pre></div></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">12/17/2021, 12:25:11 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
       ←
       <a href="/zilpay-docs/zilliqa-provider/" class="prev">
         API Reference
@@ -720,6 +720,6 @@
       </a>
       →
     </span></p></div> </main></div><div class="global-ui"></div></div>
-    <script src="/zilpay-docs/assets/js/app.d22512ee.js" defer></script><script src="/zilpay-docs/assets/js/2.7bc8afac.js" defer></script><script src="/zilpay-docs/assets/js/13.fced94b0.js" defer></script>
+    <script src="/zilpay-docs/assets/js/app.9d2045d7.js" defer></script><script src="/zilpay-docs/assets/js/2.7bc8afac.js" defer></script><script src="/zilpay-docs/assets/js/13.00f48ea5.js" defer></script>
   </body>
 </html>
