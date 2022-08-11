@@ -6,6 +6,14 @@ Once you have it running, you should find that new browser tabs have a `window.z
 
 You can review the full API for that object [here](../zilliqa-provider).
 
+## Bubble
+
+Building tech is expensive. Bubble is the most easy way to build no-code digital products. Build better and faster.
+
+ - [bubble.io](https://bubble.io/)
+ - [PLUGIN](https://bubble.io/plugin/zilpay---zilliqa-wallet-1660211605724x172398360975376400)
+
+
 ## Basic Considerations
 
 ### ZilPay Detection

@@ -11,8 +11,8 @@ module.exports = {
   themeConfig: {
     lastUpdated: 'Last Updated',
     nav: [
-      { text: 'Home', link: '/home' },
       { text: 'Getting Started', link: '/getting-started/' },
+      { text: 'Bubble', link: 'https://bubble.io/plugin/zilpay---zilliqa-wallet-1660211605724x172398360975376400' },
       { text: 'ZilPay', link: 'https://zilpay.io' },
       { text: 'GitHub', link: 'https://github.com/zilpay/zil-pay' }
     ],
