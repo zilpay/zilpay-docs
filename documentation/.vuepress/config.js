@@ -24,7 +24,8 @@ module.exports = {
           '/getting-started/',
           '/common-terms/',
           '/initializing-dapps/',
-          '/accessing-accounts/'
+          '/accessing-accounts/',
+          '/sending-transactions/'
         ]
       },
       {
